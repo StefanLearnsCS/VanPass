@@ -41,6 +41,8 @@ group :development, :test do
   
   # Manage environment variables with dotenv
   gem "dotenv-rails"
+
+  gem 'rspec-rails', '~> 6.0'
 end
 
 
