@@ -1,7 +1,5 @@
 require 'rails_helper'
 
-require 'rails_helper'
-
 RSpec.describe Activity, type: :model do
   # Test validation for title presence
   it "is valid with a title, description, location, and image_url" do
