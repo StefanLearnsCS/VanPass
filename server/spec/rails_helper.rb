@@ -63,3 +63,8 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 end
+
+# spec/rails_helper.rb
+def json
+  JSON.parse(response.body)
+end
